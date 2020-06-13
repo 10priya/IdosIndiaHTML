@@ -1,0 +1,32 @@
+.team{
+    margin-top: 20px;background-color: #000 ;
+  }
+  .carousel{
+    background-color: #000!important;
+  }
+  .skill-list{
+	width:100%;
+}
+.panel{
+	color:#f2f2f2;
+}
+
+.cfo{
+	margin-top:20px;margin-left:-15px;
+}
+
+.teams_img{
+ -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.recg{
+	margin-bottom:20px;
+}
+h3,h5{
+    text-align: center;
+    color:#cfcfcf;
+  }
+  .mySlides{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }

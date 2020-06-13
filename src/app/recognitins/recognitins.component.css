@@ -1,0 +1,21 @@
+
+/*.partenr_img{
+
+ padding:0px 30px;
+  padding-left: 80px;
+}*/
+.partenr_img_group_two{
+    margin-top: 10px;
+    padding-bottom:20px;
+    
+  }
+  @media (max-width: 768px){
+    .box {
+       margin-bottom: 10px;
+   }
+   } 
+   .recognition_container{
+    margin-top: 20px;background-color: #000;
+  }
+  
+ 

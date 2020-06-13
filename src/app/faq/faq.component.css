@@ -1,0 +1,93 @@
+.questions{
+	color:#48ab81;
+	font-size:25px;
+}
+.accordion {
+    background-color:#707070;
+    color: #000;
+    cursor: pointer;
+    padding: 8px;
+    width: 95%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-top:1px solid black;
+  }
+  
+   .accordion:hover {
+    color: #fff;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #000;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-size:20px;
+   /* margin-right: 25px;*/
+  }
+  
+  .active:after {
+    content: "\2212";
+    color: #fff;
+  }
+  
+  .panel {
+    padding: 0 0px;
+    background-color: #707070;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: #fff;
+  }
+  
+  .question{
+      margin-top: 80px;
+  }
+  
+  
+  
+  @keyframes fadeInUp {
+      from {
+          transform: translate3d(0,40px,0)
+      }
+  
+      to {
+          transform: translate3d(0,0,0);
+          opacity: 1
+      }
+  }
+  
+  @-webkit-keyframes fadeInUp {
+      from {
+          transform: translate3d(0,40px,0)
+      }
+  
+      to {
+          transform: translate3d(0,0,0);
+          opacity: 1
+      }
+  }
+  
+  .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-fill-mode: both
+  }
+  
+  .animatedFadeInUp {
+      opacity: 0
+  }
+  
+  .fadeInUp {
+      opacity: 0;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+  }
+  
+  
+  
